@@ -3,11 +3,11 @@ const app = express();
 const PORT = 3001;
 
 const hikingQuotes = [
-  "The mountains are calling and I must go. – John Muir",
-  "In every walk with nature, one receives far more than he seeks. – John Muir",
-  "Hiking is not escapism; it's realism. – Jennifer Pharr Davis",
-  "Take only memories, leave only footprints. – Chief Seattle",
-  "Do not follow where the path may lead. Go instead where there is no path and leave a trail. – Ralph Waldo Emerson"
+  "The mountains are calling and I must go.",
+  "In every walk with nature, one receives far more than he seeks.",
+  "Hiking is not escapism; it's realism.",
+  "Take only memories, leave only footprints.",
+  "Do not follow where the path may lead. Go instead where there is no path and leave a trail."
 ];
 
 app.get('/', (req, res) => {
