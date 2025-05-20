@@ -31,6 +31,3 @@ axios.get('http://localhost:3001/quote')
   .catch(error => {
     console.error('Error fetching quote:', error);
 });
-
-
-![UML diagram](https://github.com/user-attachments/assets/074145ed-a73c-42a6-8225-b2bf5612948a)
